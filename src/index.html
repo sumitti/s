@@ -1,1 +1,124 @@
+<html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<title>SUMIT-PORTFOLIO</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        ;
+    }
 
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(5, 4, 40);
+    }
+
+    nav img {
+        height: 80;
+        width: fit-content;
+    }
+
+    .left {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav button {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+
+    }
+
+    .firstsection div {
+        width: 30%;
+
+
+    }
+
+    .rightsection img {
+        width: 125%;
+        height: 80%;
+        margin: 50px 0;
+    }
+    @keyframes typing {
+        from{
+            width: 0%;
+
+        }
+     to{
+        width: 100%;
+     }   }
+
+    .leftsection {
+
+        width: 34px;
+        font-size: 5rem;
+        animation: typing 3s steps(40,infinite);
+    }
+    
+    
+</style>
+
+<body>
+    <header>
+        <nav><img
+                src="data:image/jpeg;base64,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">
+            <div class="left">My Internship Project</div>
+            <div class="right">
+                <ul>
+                    <button>
+                        <li>Home</li>
+                    </button>
+                    <button>
+                        <li>About</li>
+                    </button>
+                    <button>
+                        <li>Contact</li>
+                    </button>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <marquee scrollamount="15">
+        <h3>Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing.
+            Instead of buying, owning, and maintaining physical data centers and servers, you can access technology
+            services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider </h3>
+    </marquee>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Welcome to my first Website</div>
+            <div class="rightsection">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_azure.jpg">
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
